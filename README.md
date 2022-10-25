@@ -2,10 +2,9 @@
 
 ## About this site
 
-My goal is to provide a guide on building up a reasonable homelab with VLAN isolation, a seperate storage environment with backups and self hosting 
-of various services with containerization. Where possible, I'll provide links to the influences I've had online to set these up. A homelab is
-anything you want to make it. From 3 or 4 Raspberry pi's to old throwaway servers you got from you employer.  The goal of your homelab should be 
-about you.  Either you want to host something useful like a media server for you family, or you are learning something new.
+My goal is to provide a guide on building up a reasonable homelab with VLAN isolation, a seperate storage environment with backups and self hosting of various services with containerization. Everything will be automated and repeatable with tools such as Ansible, Terraform and Packer. Where possible, I'll provide links to the influences I've had online to set these up.
+
+A homelab is anything you want to make it. From 3 or 4 Raspberry pi's to old throwaway servers you got from you employer.  The goal of your homelab should be about you.  Either you want to host something useful like a media server for you family, or you are learning something new.
 
 ## About me
 
@@ -18,6 +17,12 @@ A large part of this journey was my homelab. Things are moving ever more to clou
 on the AWS platform.  Had it not been for my homelab, I would be learning most of the concepts for cloud for the first time on AWS. There is something
 to be said for setting up a container orchestration environment on your own versus clicking a button on a GUI and 
 having a fully redundant, scalable and highly available environment waiting for you. In the lab all that is up to you.
+
+# What I use
+
+One of the biggest complaints I have with most other sites is their use of Ubuntu. I have nothing against Ubuntu for your desktop. It seems ok. As a server OS my work uses Red Hat Enterprise Linux (RHEL). Most every job I've seen uses RHEL. If I'm trying to replicate my work environment at home why would I use a completly different environment?  For that reason I choose Rocky Linux. In the post-CentOS environment we are in, Rocky provides the most RHEL like experience without licensing fees.  For a homelab why would you want to pay for support. I assume (but haven't tried) AlmaLinux to be the saem as Rocky.
+
+That is the same reason I will be using Proxmox instead of VMware.  I will install Proxmox in an automated fashion just like Rocky and it will be repeatable.
 
 <!---
 rickh1965/rickh1965 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.

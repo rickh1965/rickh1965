@@ -20,7 +20,7 @@ having a fully redundant, scalable and highly available environment waiting for 
 
 # What I use
 
-One of the biggest complaints I have with most other sites is their use of Ubuntu. I have nothing against Ubuntu for your desktop. It seems ok. As a server OS my work uses Red Hat Enterprise Linux (RHEL). Most every job I've seen uses RHEL. If I'm trying to replicate my work environment at home why would I use a completly different environment?  For that reason I choose Rocky Linux. In the post-CentOS environment we are in, Rocky provides the most RHEL like experience without licensing fees.  For a homelab why would you want to pay for support. I assume (but haven't tried) AlmaLinux to be the saem as Rocky.
+One of the biggest complaints I have with most other sites is their use of Ubuntu. I have nothing against Ubuntu for your desktop. It seems ok. As a server OS my work uses Red Hat Enterprise Linux (RHEL). Most every job I've seen uses RHEL. If I'm trying to replicate my work environment at home why would I use a completly different environment?  For that reason I choose Rocky Linux. In the post-CentOS environment we are in, Rocky provides the most RHEL like experience without licensing fees.  For a homelab why would you want to pay for support.
 
 <!---
 rickh1965/rickh1965 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.

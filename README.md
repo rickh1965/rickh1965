@@ -22,8 +22,6 @@ having a fully redundant, scalable and highly available environment waiting for 
 
 One of the biggest complaints I have with most other sites is their use of Ubuntu. I have nothing against Ubuntu for your desktop. It seems ok. As a server OS my work uses Red Hat Enterprise Linux (RHEL). Most every job I've seen uses RHEL. If I'm trying to replicate my work environment at home why would I use a completly different environment?  For that reason I choose Rocky Linux. In the post-CentOS environment we are in, Rocky provides the most RHEL like experience without licensing fees.  For a homelab why would you want to pay for support. I assume (but haven't tried) AlmaLinux to be the saem as Rocky.
 
-That is the same reason I will be using Proxmox instead of VMware.  I will install Proxmox in an automated fashion just like Rocky and it will be repeatable.
-
 <!---
 rickh1965/rickh1965 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.

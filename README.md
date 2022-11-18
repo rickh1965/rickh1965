@@ -22,6 +22,10 @@ having a fully redundant, scalable and highly available environment waiting for 
 
 One of the biggest complaints I have with most other sites is their use of Ubuntu. I have nothing against Ubuntu for your desktop. It seems ok. As a server OS my work uses Red Hat Enterprise Linux (RHEL). Most every job I've seen uses RHEL. If I'm trying to replicate my work environment at home why would I use a completly different environment?  For that reason I choose Rocky Linux. In the post-CentOS environment we are in, Rocky provides the most RHEL like experience without licensing fees.  For a homelab why would you want to pay for support.
 
+I also virtualize and in the VMs I use docker with docker swarm. I'm getting the hang of kubernetes but there are only so many hours in a day.  My hypervisor of choice is Proxmox. Again, no fees it's just free with no hassle about licensing and it just works.
+
+The first two playbooks here will create a basic Rocky Linux server and then configure it to be ab;e to build all of the Rocky Linux and Proxmox servers you would ever need.
+
 <!---
 rickh1965/rickh1965 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.

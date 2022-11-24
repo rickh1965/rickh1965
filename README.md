@@ -31,7 +31,7 @@ One of the biggest complaints I have with most other sites is their use of Ubunt
 
 I also virtualize and in the VMs I use docker with docker swarm. I'm getting the hang of kubernetes but there are only so many hours in a day.  My hypervisor of choice is Proxmox. Again, no fees it's just free with no hassle about licensing and it just works.
 
-The first two playbooks here will create a basic Rocky Linux server and then configure it to be ab;e to build all of the Rocky Linux and Proxmox servers you would ever need.
+The first two playbooks here will create a basic Rocky Linux server and then configure it to be able to build all of the Rocky Linux and Proxmox servers you will ever need.
 
 <!---
 rickh1965/rickh1965 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.

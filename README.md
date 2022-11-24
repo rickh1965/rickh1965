@@ -11,7 +11,7 @@
 
 My goal is to provide a guide on building up a reasonable homelab with VLAN isolation, a seperate storage environment with backups and self hosting of various services with containerization. Everything will be automated and repeatable with tools such as Ansible, Terraform and Packer. Where possible, I'll provide links to the influences I've had online to set these up.
 
-A homelab is anything you want to make it. From 3 or 4 Raspberry pi's to old throwaway servers you got from you employer.  The goal of your homelab should be about you.  Either you want to host something useful like a media server for you family, or you are learning something new.
+A homelab is anything you want to make it. From 3 or 4 Raspberry pi's to old throwaway servers you got for from your employer.  The goal of your homelab should be about you.  Either you want to host something useful like a media server for you family, or you are learning something new.
 
 ## About me
 

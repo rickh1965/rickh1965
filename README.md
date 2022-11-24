@@ -5,7 +5,7 @@
 2.  Use the **pxebootserver** playbook to turn that server into the central PXE boot server for your homelab. If you follow all the steps, this boot server can install all of your Rocky Linux and even Proxmox servers for your environment. This servers will be plain and standard and ready for customization.
     
     2a.  As a bonus, the **pxebootserver** play contains an additional playbook: ```p410_hbamode.yml```. If you have an older HP DL Proliant server with a 410/420 RAID controller, this playbook will configure your disks in HBA mode which will allow you to configure CEPH and ZFS as intended.  This is supported by essentially no one, so use this at your own risk and read the warning in the playbook before continuing.
-3.  Finally, the **base_docker_roles** playbook will give you a uniform way to keep your servers up to date as well as optionally setting up time sync and a pretty cool MOTD banner. The docker roles ***automagically*** starts all of your docker containers also.  This only works if you set it up according to the README included with tese roles.
+3.  Finally, the **base_docker_roles** playbook will give you a uniform way to keep your servers up to date as well as optionally setting up time sync and a pretty cool MOTD banner. The docker roles ***automagically*** starts all of your docker containers also.  This only works if you set it up according to the README included with these roles.
 
 ## About this site
 

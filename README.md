@@ -1,11 +1,7 @@
 # Home lab from scratch
 ## How to use the playbooks.
 
-1. Create a Rocky Linux server with my **mk_bootiso** playbook.  This will provide a very standard (and no frills) server running Rocky Linux 8.6 and is ready to become your boot server.
-2.  Use the **pxebootserver** playbook to turn that server into the central PXE boot server for your homelab. If you follow all the steps, this boot server can install all of your Rocky Linux and even Proxmox servers for your environment. These servers will be plain and standard and ready for customization.  
-3.  Finally, the **base_docker_roles** playbook will give you a uniform way to keep your servers up to date as well as optionally setting up time sync and a pretty cool MOTD banner. The docker role ***automagically*** starts all of your docker containers also.  This only works if you set it up according to the README included with these roles.
-
-    3a.  As a bonus, the **base_docker_roles** play contains an additional playbook: ```p410_hbamode.yml```. If you have an older HP DL Proliant server with a 410/420 RAID controller, this playbook will configure your disks in HBA mode which will allow you to configure CEPH and ZFS as intended. ***This works on Proxmox only.***  This is supported by essentially no one, so use this at your own risk and read the warning in the playbook before continuing.
+The pxebootenv playbooks will create a PXE boot server allowing you to repeatably create Rocky and Debian hosts. They can also install Proxmox on any of the Debian installations you choose, automatically.
 
 ## About this site
 
